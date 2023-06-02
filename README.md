@@ -26,7 +26,8 @@ After cloning the repo:
 4. Add the model file to `models/` and change `cfg_model_path` to its path.
 ```bash
 git clone https://github.com/datakulture/object-detection.git
-cd Yolo-Interface-using-Streamlit
+cd object-detection
+pip insstall -r requirements.txt
 streamlit run app.py
 ```
 
