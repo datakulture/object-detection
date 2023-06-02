@@ -27,7 +27,7 @@ After cloning the repo:
 ```bash
 git clone https://github.com/datakulture/object-detection.git
 cd object-detection
-pip insstall -r requirements.txt
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
