@@ -3,9 +3,6 @@ A web interface for real-time yolo inference using streamlit. It supports CPU an
 
 <img src="output.gif" alt="demo of the dashboard" width="800"/>
 
-### [Live Demo](https://moaaztaha-yolo-interface-using-streamlit-app-ioset2.streamlit.app/)
-
-
 ## Features
 - **Caches** the model for faster inference on both CPU and GPU.
 - Supports uploading model files (<200MB) and downloading models from URL (any size)
