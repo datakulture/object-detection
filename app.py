@@ -79,7 +79,7 @@ def video_input(data_src):
                 break
             frame = cv2.resize(frame, (width, height))
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            time.sleep(0.1)
+            time.sleep(0.25)
             output_img = infer_image(frame)
             output.image(output_img)
             curr_time = time.time()
